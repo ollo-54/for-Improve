@@ -22,8 +22,8 @@ def fil_end_array(len_arr_i):
     return arr_tmp
 
 for i in range(n):
-    if len_array in array:
-        len_array = int(random.random() * 5)
+#    if len_array in array:                      # в этом месте проверка не требуется, т.к. она 
+#        len_array = int(random.random() * 5)    # при заполнении массива с длинами массивов
     fill_len_array()
 
 for i in array:
